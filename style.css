@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 20px 0;
+    background: transparent;
+    
+}
+.navbar-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.nav-link {
+    color: white !important;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+.navbar-brand {
+    font-size: 22px;
+    white-space: nowrap;
+}
+.nav-link:hover {
+    color: #b7e4c7 !important;
+}
+
+
+/* HERO */
+
+.hero {
+    height: 100vh;
+    width: 100%;
+
+    position: relative;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.25)
+        ),
+        url("hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+/* TEXT */
+
+.hero-content {
+    text-align: center;
+
+    margin-bottom: 70px;
+
+    color: white;
+}
+
+.tagline {
+    font-size: 28px;
+    font-weight: 600;
+
+    margin-bottom: 20px;
+
+    text-shadow: 0 2px 5px black;
+}
+
+
+/* BUTTON */
+
+.hero-content .btn {
+    padding: 12px 28px;
+
+    border-radius: 30px;
+
+    font-weight: 600;
+}
+
+/* WHY KRISHI MITRA */
+
+.why-section {
+    background-color: #f5f8f3;
+}
+
+.why-section h2 {
+    font-weight: 700;
+    color: #245c32;
+}
+
+.why-section p {
+    color: #666;
+}
+
+.why-card {
+    background: white;
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.why-card:hover {
+    transform: translateY(-8px);
+}
+
+.why-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.why-card h4 {
+    color: #245c32;
+    margin-bottom: 12px;
+}
+/* FEATURED CROPS */
+
+.crops-section {
+    background-color: #ffffff;
+}
+
+.crops-section h2 {
+    color: #245c32;
+    font-weight: 700;
+}
+
+.crop-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.crop-card:hover {
+    transform: translateY(-6px);
+}
+
+.crop-card img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
+
+.crop-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.crop-info h5 {
+    color: #245c32;
+    margin-bottom: 12px;
+}
+.disease-section {
+    background-color: #f5f8f3;
+}
+
+.disease-section h2 {
+    color: #245c32;
+    font-weight: 700;
+}
+
+.disease-section p {
+    color: #666;
+}
+
+.disease-card {
+    background: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.disease-card:hover {
+    transform: translateY(-6px);
+}
+
+.disease-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.disease-card h5 {
+    color: #245c32;
+    margin-bottom: 12px;
+}
+.techniques-section {
+    background-color: #ffffff;
+}
+
+.techniques-section h2 {
+    color: #245c32;
+    font-weight: 700;
+}
+
+.techniques-section p {
+    color: #666;
+}
+
+.technique-card {
+    background: #f5f8f3;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.technique-card:hover {
+    transform: translateY(-6px);
+}
+
+.technique-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.technique-card h5 {
+    color: #245c32;
+    margin-bottom: 12px;
+}
+.schemes-section {
+    background-color: #f5f8f3;
+}
+
+.schemes-section h2 {
+    color: #245c32;
+    font-weight: 700;
+}
+
+.schemes-section p {
+    color: #666;
+}
+
+.scheme-card {
+    background: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.scheme-card:hover {
+    transform: translateY(-6px);
+}
+
+.scheme-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.scheme-card h5 {
+    color: #245c32;
+    margin-bottom: 12px;
+}
+.assam-section {
+    background-color: #ffffff;
+}
+
+.assam-section h2 {
+    color: #245c32;
+    font-weight: 700;
+}
+
+.assam-section p {
+    color: #666;
+}
+
+.assam-card {
+    background: #f5f8f3;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.assam-card:hover {
+    transform: translateY(-6px);
+}
+
+.assam-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.assam-card h5 {
+    color: #245c32;
+    margin-bottom: 12px;
+}
+.about-section {
+    background-color: #f5f8f3;
+}
+
+.about-section h2 {
+    color: #245c32;
+    font-weight: 700;
+}
+
+.about-section > .container > .text-center p {
+    color: #666;
+}
+
+.about-content {
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.about-content h3,
+.contact-card h3 {
+    color: #245c32;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    color: #666;
+    line-height: 1.7;
+}
+
+.contact-card {
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.contact-card .form-control {
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.contact-card .btn {
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+.footer {
+    background: #245c32;
+    color: white;
+    padding: 30px 0;
+}
+
+.footer h5 {
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+.footer .copyright {
+    font-size: 14px;
+    margin-top: 15px;
+    opacity: 0.8;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR FIXING */
+
